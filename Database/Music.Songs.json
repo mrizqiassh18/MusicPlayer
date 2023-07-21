@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "64ba6eb380db3c23ddad3289"
+  },
+  "title": "Manusia Bodoh",
+  "artist": "Ada Band",
+  "album": "Heaven Of"
+},
+{
+  "_id": {
+    "$oid": "64ba6f6580db3c23ddad328c"
+  },
+  "title": "Maaf Dari Surga",
+  "artist": "Element",
+  "album": "Paradoks"
+}]

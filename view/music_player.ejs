@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="side-bar">
+            <div class="navigation-container">
+                <div class="navigation-list">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-house" style="color: #ffffff;"></i>Home</a></li>
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>Search</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="playlist-container">
+                <h2>Your Playlist</h2>
+                <div class="playlist-list">
+                    <ul>
+                        <li><a href="Contoh">Bandung Dan Kenangan</a></li>
+                        <li><a href="Contoh">Naruto All OST Song</a></li>
+                        <li><a href="Contoh">Indienesia</a></li>
+                        <li><a href="Contoh">King's Playlist</a></li>
+                        <li><a href="Contoh">Bogor Kota Hujan</a></li>
+                        <li><a href="Contoh">Hujan Rintik-Rintik</a></li>
+                        <li><a href="Contoh">Forest Sound</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="main-content-container">
+                <div class="header">
+                    <div class="header-img">
+                        <img src="../assets/spotify-liked.png" alt="">
+                    </div>
+                    <div class="header-title">
+                        <p>Playlist</p>
+                        <h2>Liked Songs</h2>
+                    </div>
+                </div>
+                <div class="play-button">
+                    <a href=""><img src="../assets/play_button.png" alt=""></a>
+                </div>
+                <div class="music-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Artist(s)</th>
+                                <th>Album</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% songs.forEach(song => { %>
+                            <tr>
+                                <td>1</td>
+                                <td><%= song.title %></td>
+                                <td><%= song.artist %></td>
+                                <td><%= song.album %></td>
+                                <td>1:30</td>
+                            </tr>
+                            <% }); %> 
+                        </tbody>
+                    </table>  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

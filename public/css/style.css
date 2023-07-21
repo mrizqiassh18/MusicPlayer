@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 961px;
+}
+
+.side-bar {
+    background-color: rgb(27, 27, 27);
+    width: 25%;
+    padding: 5px 5px;
+}
+
+.navigation-container {
+    height: 15%;
+    width: 97%;
+    background-color: rgb(49, 49, 49);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.navigation-list {
+    padding-top: 5px;
+}
+
+.navigation-list li {
+    list-style: none;
+}
+
+.navigation-list a {
+    line-height: 60px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+i {
+    margin-right: 10px;
+}
+
+.playlist-container {
+    width: 97%;
+    background-color: rgb(49, 49, 49);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 82%;
+}
+
+.playlist-container h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.playlist-list {
+    padding: 20px 0;
+}
+
+.playlist-list li {
+    list-style: none;
+}
+
+.playlist-list a {
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-content {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    width: 75%;
+}
+
+.main-content-container {
+    padding: 5px 5px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
+    height: 97%;
+}
+
+.main-content-container h1 {
+    font-size: 40px;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    background-color: rgb(80, 48, 156);
+    padding: 0 0 50px 15px;
+    height: 40%;
+}
+
+.header img {
+    width: 250px;
+}
+
+.header-title {
+    align-items: flex-end;
+}
+
+.header-title p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header-title h2 {
+    font-size: 75px;
+}
+
+.play-button {
+    background-color: rgb(68, 42, 129);
+    padding-left: 15px;
+}
+
+.play-button img {
+    width: 60px;
+    margin: 25px 0;
+}
+
+.music-list {
+    padding-left: 15px;
+}
+
+.music-list table {
+    width: 100%;
+    text-align: left;
+}
+
+tr {
+    height: 50px;
+}
+    
